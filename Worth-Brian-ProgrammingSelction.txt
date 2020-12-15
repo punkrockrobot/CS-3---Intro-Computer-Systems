@@ -1,0 +1,14 @@
+1) Case 1 
+HowMuch = 1
+2) Case 2
+HowMuch = -5
+3) Case 3
+HowMuch = 3
+
+
+1) Assume intNumber initially contains 50. What value intNumber will contain after the above selection structure is executed?
+intNumber = 100
+2) Assume intNumber initially contains 500. What value intNumber will contain after the above selection structure is executed?
+intNumber = 500
+3) Assume intNumber initially contains 1000. What value intNumber will contain after the above selection structure is executed?
+intNumber = 3000
