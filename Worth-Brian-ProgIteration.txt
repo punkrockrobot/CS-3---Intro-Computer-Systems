@@ -1,0 +1,26 @@
+
+        Dim i As Integer
+        Dim HowMuch As Integer
+
+        HowMuch = 0
+
+        For i = 1 To 10
+            If i < 5 Then
+                HowMuch = HowMuch + 1
+            ElseIf i = 5 Then
+                HowMuch = HowMuch - 5
+            Else
+                HowMuch = HowMuch + 3
+            End If
+            
+           MessageBox.Show(i, HowMuch)   'Print i, HowMuch
+
+      i = 1,2,3,4,5,6,7,8,9,10
+HowMuch = 1,2,3,4,-1,2,5,8,11,14 
+
+        Next i
+
+        MessageBox.Show(HowMuch)      'Print HowMuch
+
+HowMuch = 14
+
